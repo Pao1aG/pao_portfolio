@@ -58,21 +58,21 @@ export default function Footer() {
                 edge="start"
                 label="GitHub"
                 icon={
-                  <img src="images/icons/github.png" />
+                  <img src="images/icons/github.png" alt="github"/>
                 }
                 onClick={() => window.open("https://www.github.com/Pao1aG/")}/>
             </TabPanel>
             <TabPanel index={1}>
               <Tab className= "link2" label="LinkedIn"
               icon={
-                <img src="images/icons/linkedin.png" />
+                <img src="images/icons/linkedin.png" alt="linkedin"/>
               }
               onClick={() => window.open("https://www.linkedin.com/in/paolaagonzalezm/")}/>
             </TabPanel>
             <TabPanel index={2}>
               <Tab className= "link2" label="Email"
               icon={
-                <img src="images/icons/email.png" />
+                <img src="images/icons/email.png" alt="email"/>
               }
               onClick={() => window.open("mailto:paolaagonzalezm@email.arizona.edu")}/>
             </TabPanel>

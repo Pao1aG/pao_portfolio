@@ -5,14 +5,13 @@ import Portfolio from "../src/pages/Portfolio";
 import ContactMe from "../src/pages/ContactMe";
 import Resume from "../src/pages/Resume";
 import Footer from "../src/components/Footer";
-import './App.css';
+import "./styles/App.css";
 
 function App() {
   return (
     <>
     <Router>
       <Navbar />
-      <h1>Hello World!</h1>
       <Route exact path="/">
         <AboutMe />
       </Route>
